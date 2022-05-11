@@ -1,0 +1,8 @@
+<!--pages/pic/pic.wxml-->
+<view class="container">
+  <!-- 
+    图片属性默认为scaleToFill 
+    其他属性：aspectFit, aspectFill, widthFix, heightFix  
+  -->
+  <image src="/images/goomba.png" mode="heightFix"></image>
+</view>
