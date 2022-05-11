@@ -1,0 +1,9 @@
+<!--pages/list/list.wxml-->
+<view>
+  <!-- allow long press to select & copy -->
+  <text selectable="">1015282911</text>
+</view>
+
+<!-- use html tag -->
+<rich-text nodes="<h1 style='color: grey;'>Title</h1>"></rich-text>
+
