@@ -1,0 +1,17 @@
+<!--pages/btn/btn.wxml-->
+<view class="container">
+  <text>---------- BUTTON TYPES ----------</text>
+  <button>BUTTON</button>
+  <button type="primary">BUTTON</button>
+  <button type="warn">BUTTON</button>
+  
+  <text>---------- BUTTON SIZE ----------</text>
+  <button size="mini">BUTTON</button>
+  <button type="primary" size="mini">BUTTON</button>
+  <button type="warn" size="mini">BUTTON</button>
+
+  <text>---------- BUTTON PLAIN ----------</text>
+  <button size="mini" plain>BUTTON</button>
+  <button type="primary" size="mini" plain>BUTTON</button>
+  <button type="warn" size="mini" plain>BUTTON</button>
+</view>
