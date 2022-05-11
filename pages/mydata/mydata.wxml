@@ -1,0 +1,4 @@
+<!--pages/mydata/mydata.wxml-->
+<view class="container">
+  <view>{{info}}</view>
+</view>
