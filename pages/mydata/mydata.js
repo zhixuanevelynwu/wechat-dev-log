@@ -5,7 +5,10 @@ Page({
    * 页面的初始数据
    */
   data: {
-    info: 'hello world'
+    info: 'hello world',
+    imgSrc: 'https://a9p9n2x2.stackpathcdn.com/wp-content/blogs.dir/1/files/2020/10/coin-collage-image-Copyright-Rare-Coin-Wholesalers.png',
+    randomNum1: Math.random() * 10,
+    randomNum2: Math.random().toFixed(2),
   },
 
   /**

@@ -4,7 +4,8 @@
         "pages/list/list",
         "pages/btn/btn",
         "pages/pic/pic",
-        "pages/mydata/mydata"
+        "pages/mydata/mydata",
+        "pages/myInput/myInput"
     ],
     "window": {
         "backgroundTextStyle": "light",

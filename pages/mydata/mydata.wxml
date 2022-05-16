@@ -1,4 +1,8 @@
 <!--pages/mydata/mydata.wxml-->
 <view class="container">
   <view>{{info}}</view>
+  <image src="{{imgSrc}}" mode="heightFix"></image>
+  <view>{{randomNum1 >= 5 ? "Greater than or equal to 5" : "Smaller than 5"}}</view>
+  <!-- .toFixed(2) 保留两位小数 -->
+  <view>{{randomNum2 * 100}}</view>
 </view>
