@@ -1,0 +1,28 @@
+/* view {
+  background-color: cornsilk;
+}
+
+view :nth-child(1) {
+  background-color:darkgray;
+} */
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+}
+
+input {
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 2px;
+  margin: 10px;
+}
+
+button {
+  margin: 10px;
+}
