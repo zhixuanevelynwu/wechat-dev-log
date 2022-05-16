@@ -1,0 +1,44 @@
+<!--pages/myInput/myInput.wxml-->
+<view class="container">
+  <!-- tap -> bindtap / bind:tap -> click -->
+  <!-- input -> bindinput / bind:input -> type in textbox -->
+  <!-- change -> bindchange / bind:change -> 状态改变 -->
+  <view>USER INPUT</view>
+
+  <!-- buttons -->
+  <button type="primary" bindtap="btnTapHandler">LOG EVENT</button>
+  <button type="primary" bindtap="changeCount" plain>INCREMENT</button>
+  <view>{{count}}</view>
+  <button type="primary" bindtap="btnHandler" data-info="{{2}}">DATA INFO</button>
+
+  <!-- inputs -->
+  <input value="{{msg}}" bindinput="inputHandler"></input>
+
+  <!-- conditions -->
+  <block wx:if="{{true}}">
+    <view wx:if="{{type === 1}}">Female</view>
+    <view wx:elif="{{type === 2}}">Male</view>
+    <view wx:elif="{{type === 3}}">Unknown</view>
+    <view wx:else>Other</view>
+  </block>
+
+  <!-- hidden -->
+  <view hidden="{{invisible}}">Can you see me?</view>
+
+  <!-- arrays -->
+  <view wx:for="{{arr1}}" wx:key="index">
+    index is {{index}}, item is {{item}}
+  </view>
+
+  <view>-------------------------</view>
+
+  <view wx:for="{{arr1}}" wx:for-index="idx" wx:for-item="itemName" wx:key="idx">
+    index is {{idx}}, item is {{itemName}}
+  </view>
+
+  <view>-------------------------</view>
+
+  <view wx:for="{{userList}}" wx:key="id">
+    name: {{item.name}}
+  </view>
+</view>

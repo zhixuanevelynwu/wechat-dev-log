@@ -15,8 +15,12 @@
   <view>
     <navigator url="../mydata/mydata">DATA</navigator>
   </view>
-  <view>B</view>
-  <view>C</view> 
+  <view>
+    <navigator url="../myInput/myInput">INPUT</navigator>
+  </view>
+  <view>
+    <navigator url="../myInput/myInput">CONDITION</navigator>
+  </view> 
 </scroll-view>
 
 <swiper class="swiper-container" 
